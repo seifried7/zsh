@@ -32,8 +32,8 @@ bindkey '^ ' autosuggest-accept
 [ -f "$HOME/.zsh/aliasrc" ] && source "$HOME/.zsh/aliasrc"
 
 # Load ; should be last.
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 source /usr/share/autojump/autojump.zsh 2>/dev/null
 source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
 
