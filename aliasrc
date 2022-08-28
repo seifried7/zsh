@@ -24,9 +24,8 @@ ex ()
   fi
 }
 
-export EDITOR=vim
+export EDITOR=nano
 
-alias pacman-update='sudo pacman-mirrors --geoip'
 
 alias ls='ls'
 alias ll='ls -l'
@@ -94,3 +93,5 @@ alias gp=gitpush
 alias gu=gitupdate
 alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+alias update='sudo apt update'
